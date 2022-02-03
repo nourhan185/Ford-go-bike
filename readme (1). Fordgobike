@@ -1,0 +1,26 @@
+# (Data Visualization - Ford GoBike (Bike Shares))
+## by (Nourhan Elsayed Abdo Mohamed)
+
+
+## Dataset
+
+> This dataset contains  174952 fordgobike trips in the dataset with 16 specifications (duration_sec, start_time, end_time, start_station_id, start_station_name,day_of_month,trip,hour_of_day, end_station_id, end_station_name, bike_id, user_type, member_birth_year, member_gender, age,bike_share_for_all_trip).
+
+
+## Summary of Findings
+
+>1-	Univariate exploration: 
+•	Trip duration is mostly concentrated on the lower spectrum. Most of the values are less than 2000 seconds with peak around 600 
+•	Subscribers represent the vast majority of users.
+•	males are the most members
+•	the age distribution is more concentrated between 20 to 40 years old.
+•	the most commom hours of day for starting are : in morning from 8:9 and evening from 4:6.
+2-	Bivariate exploration: there is no correlation between age and duration of trips. After separation the top 10 trips , half of stations have the most trips in the morning and another half of stations has the most trips in the afternoon. Subscribers make lots of short rides but Customers make longer rides.
+
+3-	Multivariate exploration: separating user types, customers and subscribers, gives more insights. Moreover, customers ride longer than subscribers.  there is a jump in duration for others at an older age (around 60 years).the higher duration is clocked by younger members.
+
+
+
+## Key Insights for Presentation
+
+> The  most trips are from Berry st and san francisco. User types play a key factor on the number of trips in each location and time group. For customers, They have longer trips. On the other hand, for subscribers . Also age doesn't affect the trip duration  .
